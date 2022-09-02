@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 
-const HeaderButton = ({ onClick, text, image }) => {
+const NavBarButton = ({ onClick, text, image }) => {
     return (
-        <Link to={onClick}><img src={image} alt={text} className='header-btn' /></Link>
+        <Link to={onClick}><img src={image} alt={text} className='navbar-btn' /></Link>
     )
 }
 
-export default HeaderButton
+export default NavBarButton

@@ -1,14 +1,10 @@
 import NavBarButton from './NavBarButton'
-import LinkButton from '../LinkButton'
 import Home from './images/home.png'
 import About from './images/about.png'
 import Projects from './images/projects.png'
-import Github from './images/github.png'
-import LinkedIn from './images/linkedin.png'
-// import { Spring } from 'react-spring'
-// import { slideInDown } from 'react-animations'
+import Contact from './images/contact.png'
 
-const Header = () => {
+const NavBar = () => {
     return (
         <header className='header'>
             <NavBarButton onClick='/' image={Home} text='Home' />
@@ -19,4 +15,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default NavBar
